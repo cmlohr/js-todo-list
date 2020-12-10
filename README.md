@@ -1,1 +1,1 @@
-js-todo-list
+Basic javascript to-do list.
