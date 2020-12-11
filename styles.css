@@ -25,8 +25,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: #191919;
-  color: #eeeeee;
+  background: #ffa62b;
+  color: #f1f1f1;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -67,7 +67,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: "orange";
+  color: #fdb827;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -97,20 +97,20 @@ p {
 .btn {
   text-transform: uppercase;
   background: transparent;
-  color: #eeeeee;
+  color: #fdb827;
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
-  border: 2px solid #eeeeee;
+  border: 2px solid #21209c;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: #191919;
-  background: #eeeeee;
+  color: #fdb827;
+  background: #21209c;
 }
 /* section */
 .section {
@@ -133,13 +133,9 @@ main {
   display: grid;
   place-items: center;
 }
-/*
-===============
-Grocery List
-===============
-*/
+
 .section-center {
-  background: #191919;
+  background: #16697a;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -161,14 +157,14 @@ Grocery List
 }
 .alert-danger {
   color: #eeeeee;
-  background: "purple";
+  background: #f05454;
 }
 .alert-success {
   color: #eeeeee;
-  background: "blue";
+  background: #54e346;
 }
 .todo-form h3 {
-  color: #eeeeee;
+  color: #ffa62b;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -179,20 +175,20 @@ Grocery List
 #todo {
   padding: 0.25rem;
   padding-left: 1rem;
-  background: #191919;
+  background: #f8f1f1;
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-color: transparent;
   font-size: 1rem;
   flex: 1 0 auto;
-  color: #eeeeee;
+  color: #191919;
 }
 #todo::placeholder {
   font-family: var(--ff-secondary);
-  color: #eeeeee;
+  color: #191919;
 }
 .submit-btn {
-  background: #191919;
+  background: #db6400;
   border-color: transparent;
   flex: 0 0 5rem;
   display: grid;
@@ -203,12 +199,12 @@ Grocery List
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
   cursor: pointer;
-  content: "purple";
+  content: purple;
   transition: var(--transition);
   font-size: 0.85rem;
 }
 .submit-btn:hover {
-  background: #eeeeee;
+  background: #fdb827;
   color: #191919;
 }
 
@@ -234,7 +230,7 @@ Grocery List
   color: #eeeeee;
   background: #191919;
 }
-.grocery-item:hover .title {
+.todo-item:hover .title {
   color: var(--clr-grey-5);
 }
 .title {
@@ -253,13 +249,13 @@ Grocery List
   transition: var(--transition);
 }
 .edit-btn {
-  color: "blue";
+  color: "#54e346";
 }
 .edit-btn:hover {
   color: #eeeeee;
 }
 .delete-btn {
-  color: "orange";
+  color: "#f05454";
 }
 .delete-btn:hover {
   color: #eeeeee;
