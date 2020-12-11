@@ -27,7 +27,7 @@ function addItem(e) {
     let attr = document.createAttribute("data-id");
     attr.value = id;
     element.setAttributeNode(attr);
-    element.classList.add("grocery-item");
+    element.classList.add("todo-item");
     element.innerHTML = `<p class="title">${value}</p>
             <div class="btn-container">
               <button type="button" class="edit-btn">

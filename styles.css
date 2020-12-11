@@ -10,12 +10,6 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-===============
-Global Styles
-===============
-*/
-
 *,
 ::after,
 ::before {
@@ -77,7 +71,7 @@ p {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   h4 {
     font-size: 1rem;
@@ -92,8 +86,9 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
-
+.todo-title {
+    font-size: 2.5rem;
+}
 .btn {
   text-transform: uppercase;
   background: transparent;
@@ -146,7 +141,7 @@ main {
 }
 .alert {
   margin-bottom: 1rem;
-  height: 1.25rem;
+  height: 2rem;
   display: grid;
   align-items: center;
   text-align: center;
@@ -185,7 +180,7 @@ main {
 }
 #todo::placeholder {
   font-family: var(--ff-secondary);
-  color: #191919;
+  color: #1919190;
 }
 .submit-btn {
   background: #db6400;
@@ -228,10 +223,10 @@ main {
 }
 .todo-item:hover {
   color: #eeeeee;
-  background: #191919;
+  background: #db6400;
 }
 .todo-item:hover .title {
-  color: var(--clr-grey-5);
+  color: #16697a;
 }
 .title {
   margin-bottom: 0;
@@ -244,21 +239,21 @@ main {
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin: 0 0.15rem;
   transition: var(--transition);
 }
 .edit-btn {
-  color: "#54e346";
+  color: #f8f1f1;
 }
 .edit-btn:hover {
-  color: #eeeeee;
+  color: #16697a;
 }
 .delete-btn {
-  color: "#f05454";
+  color: #f8f1f1;
 }
 .delete-btn:hover {
-  color: #eeeeee;
+  color: #16697a;
 }
 .clear-btn {
   text-transform: capitalize;
@@ -268,14 +263,15 @@ main {
   align-items: center;
   background: transparent;
   border-color: transparent;
-  color: #eeeeee;
+  color: #ffa62b;
   margin: 0 auto;
-  font-size: 0.85rem;
+  font-size: 1.4rem;
   letter-spacing: var(--spacing);
   cursor: pointer;
   transition: var(--transition);
-  margin-top: 1.25rem;
+  margin-top: 1rem;
+  padding-bottom: 3rem;
 }
 .clear-btn:hover {
-  color: #191919;
+  color: #db6400;
 }
